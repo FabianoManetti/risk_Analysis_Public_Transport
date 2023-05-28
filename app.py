@@ -21,28 +21,24 @@ fig1.update_traces(width=.6)
 
 age_group = dataset['Victims Age'].value_counts()
 
-fig2 = px.pie(age_group, values = age_group.values, names = age_group.index,
-             color = age_group.index, #title = 'Incidents by age group',
+adult_group = age_group[0]
+others = 0
+
+for group in age_group[1:]:
+    
+    others += group
+
+age_group = {'Adult': adult_group, 'Others': others}
+
+fig2 = px.pie(age_group.keys(), values = age_group.values(), names = age_group.keys(), 
+             color = age_group.keys(), #title = 'Incidents by age group',
              color_discrete_map={'Adult':'darkblue',
-                                 'Unknown':'rgb(204, 204, 204)',
-                                 'Elderly':'rgb(204, 204, 204)',
-                                 'Child':'rgb(204, 204, 204)',
-                                 'Youth': 'rgb(204, 204, 204)'})
-fig2.update_traces(textposition=['inside', 'inside', 'inside', 'inside', 'auto'], textinfo='percent+label',
-                   textfont = {'color':'white'})
+                                 'Others':'rgb(204, 204, 204)'})
+fig2.update_traces(textposition='inside', textinfo='percent+label', textfont = {'color':'white'})
 fig2.update_layout(font = dict(size = 16, color = 'white'))
 
-annotation = {'x': 0.60,
-              'y': -0.05,
-              'text': '',
-              'showarrow': True,
-              'arrowhead': 4}
-
-fig2.update_layout({'annotations': [annotation]})
-fig2.update_layout(showlegend=False)
 fig2.update_layout(template = 'plotly_dark')
-
-
+fig2.update_layout(showlegend=False)
 
 event_type = round(dataset['Incident Event Type'].value_counts(normalize = True)*100, 2).sort_values()
 
