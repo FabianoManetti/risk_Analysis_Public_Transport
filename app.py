@@ -279,12 +279,12 @@ app.layout = html.Div( style={'backgroundColor': 'black'},
                 html.H3('What is the percentage of incidents by Event Type?',
                         style={'font-size': '20px', 'font-weight': 'normal', 'color': 'white'}),
                 dcc.Graph(figure=fig3)
-            ], style={'width': '75%', 'display': 'inline-block'}),
+            ], style={'width': '70%', 'display': 'inline-block'}),
             html.Div([
                 html.H3('Which Age Group was more envolved in incidents?',
                         style={'font-size': '20px', 'font-weight': 'normal', 'color': 'white'}),
                 dcc.Graph(figure=fig2)
-            ], style={'width': '25%', 'display': 'inline-block'}),
+            ], style={'width': '30%', 'display': 'inline-block'}),
         ], className='plot-row'),
 
         html.Div([
