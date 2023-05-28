@@ -27,9 +27,21 @@ The dataset contains a series of observations of **public transport incidents in
 
 ## Solution
 
-The answers to the business questions can be visualized both in the notebook and in a Dashboard made with **Dash** framework, whose link to access is as follows:
+The answers to the business questions can be visualized both in the notebook and in a Dashboard made with **Dash** framework, whose link to access is:
 
 https://risk-analysis-public-transport-dashboard.onrender.com/
+
+Som of the results can be summarized as follows:
+
+* `Female` victims are the **majority group** in terms of incidents;
+* `Adults` were more **involved in incidents** during the period of observation;
+* We can observe that `Slip Trip Fall` is the **main type** of incident in the dataset while `Robbery` is the **least frequent**;
+* On `November/2016` there was the biggest number of **collision incidents** among **female victims**;
+* There was an `average` of **46.27** incidents by month with **child victims**;
+* Considering the `Injuries treated on scene`, there was **5.389** cases among **males** and **8.070** cases among **females** victims;
+* `July` was the month in **2017** where there was the highest number of incidents with **Elderly victims**;
+* `Collision` is the most common incident with **Cyclists** victims.
+
 
 
  
