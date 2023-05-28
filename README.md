@@ -20,7 +20,7 @@ These were some of the questions requested to us as Business Analysts. They will
 
 The dataset contains a series of observations of **public transport incidents in London between 2015 and 2018**.
 
-**Objective**
+**Objectives**
 * Explore data
 * Answer 10 business questions
 * Create a dashboard to present the data
