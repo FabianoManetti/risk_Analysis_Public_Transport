@@ -42,6 +42,6 @@ Som of the results can be summarized as follows:
 * `July` was the month in **2017** where there was the highest number of incidents with **Elderly victims**;
 * `Collision` is the most common incident with **Cyclists** victims.
 
-
+![Alt Text](risk_analysis_transport.gif)
 
  
