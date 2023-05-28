@@ -271,7 +271,7 @@ server = app.server
 
 app.layout = html.Div( style={'backgroundColor': 'black'},
     children=[
-        html.H1('Risk Analysis in Public Transport',
+        html.H1('Risk Analysis in London Public Transport',
                 style={'font-size': '38px', 'textAlign': 'center', 'color': 'white'}),
 
         html.Div([
@@ -281,7 +281,7 @@ app.layout = html.Div( style={'backgroundColor': 'black'},
                 dcc.Graph(figure=fig3)
             ], style={'width': '70%', 'display': 'inline-block'}),
             html.Div([
-                html.H3('Which Age Group was more envolved in incidents?',
+                html.H3('Which Age Group was more involved in incidents?',
                         style={'font-size': '20px', 'font-weight': 'normal', 'color': 'white'}),
                 dcc.Graph(figure=fig2)
             ], style={'width': '30%', 'display': 'inline-block'}),
