@@ -25,7 +25,9 @@ The dataset contains a series of observations of **public transport incidents in
 * Answer 10 business questions
 * Create a dashboard to present the data
 
-The answers to the business questions can be visualized in a Dashboard made with **Dash** framework, whose link to access is as follows:
+## Solution
+
+The answers to the business questions can be visualized both in the notebook and in a Dashboard made with **Dash** framework, whose link to access is as follows:
 
 https://risk-analysis-public-transport-dashboard.onrender.com/
 
