@@ -14,7 +14,7 @@
 
 ## Problem Context
 
-What traffic incidents are more frequent? Which age group is more involved in traffic incidents? Which type of incident is the most common?
+Which traffic incidents are more frequent? Which age group is more involved in traffic incidents? Which type of incident is the most common?
 
 These were some of the questions requested to us as Business Analysts. They will be presented graphically as follows.
 
