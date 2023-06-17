@@ -31,7 +31,7 @@ The answers to the business questions can be visualized both in the notebook and
 
 https://risk-analysis-public-transport-dashboard.onrender.com/
 
-Som of the results can be summarized as follows:
+Some of the results can be summarized as follows:
 
 * `Female` victims are the **majority group** in terms of incidents;
 * `Adults` were more **involved in incidents** during the period of observation;
